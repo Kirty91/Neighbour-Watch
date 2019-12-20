@@ -1,22 +1,150 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  background: #EAAB00;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+h5{
+  font-size: 20px;
+  color: white;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-style: oblique;
+}
+.navbar img{
+  height: auto;
+  width: 50px;
+}
+.nav-menu-right{
+  display: flex;
+  align-items: right;
+}
+.nav-menu-left{
+  display: flex;
+  align-items: center;
+}
+.nav-menu-right-link{
+  color: white;
+  font-size: 17px;
+  margin:10px;
+  text-decoration: none;
+}
+.page-content{
+  padding: 30px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: round;
+}
+
+.test-border{
+  border: 9px solid rgb(228, 168, 39);
+  }
+.tpurple{
+  color:  rgb(228, 168, 39);
+  }
+
+.page-footer{
+  background-color: black;
+  margin-top: 20px;
+  padding: 5px;
+}
+.footer-content{
+  width:100%;
   color: white;
 }
+.footer-content h3{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.footer-content p{
+  font-size: 15px;
+  margin-top: 10px;
+}
+.text-center{
+  text-align: center;
+}
+.Cred {
+  background-color: #92D400;
+}
+.Cpink {
+  background-color: #DA39AF;
+}
+.Cblue {
+  background-color: #275E37;
+}
+.Cgreen {
+  background-color: #34B233;
+}
+.Corange {
+  background-color: #00A1DE;
+}
+.Cpurple {
+  background-color: #EAAB00;
+}
+.card-container{
+  width: 100%;
+ 
+}
+.no-margin-top{
+  margin-top: 0;
+}
+.no-margin-bottom{
+  margin-bottom: 0;
+}
+.card {
+  border-left: 9px solid rgba(0,0,0,0.2);
+  border-right: 9px solid rgba(0,0,0,0.2);
+  display: inline-table;
+  margin: 35px;
+  padding: 20px;
+  color: #fff;
+  width: 180px;
+  height: 170px;
+  font-family: "Josefin Slab";
+  font-size: 20px;
+}
+.news-container{
+  display: flex;
+  justify-content:space-around ;
+}
+.newsBox{
+  flex: 1;
+  margin-left: 8%;
+  border: 1px solid white;
+}
 
-.App-link {
-  color: #09d3ac;
+.news-event-h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  color: white;
+  background:#EAAB00 ;
+}
+.text-white{
+  color: white;
+}
+.page-content-header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.events-container{
+  display: flex;
+  justify-content:space-between ;
+}
+.border-black{
+  border-bottom: 2px solid grey;
+}
+.button-submit{
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.text-black{
+  color:black;
 }
